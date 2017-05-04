@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Favorite Movies/FavoritesViewController.swift"
+            timestampString = "515623563.699544"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Favorite_Movies.FavoritesViewController.(viewWillAppear (Swift.Bool) -&gt; ()).(closure #2)"
+                  moduleName = "Favorite Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anageorgia/Documents/Teste%20Ilha%204/Favorite%20Movies/Favorite%20Movies/FavoritesViewController.swift"
+                  timestampString = "515534417.420059"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "2972">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Favorite_Movies.FavoritesViewController.(viewWillAppear (Swift.Bool) -&gt; ()).(closure #2).(closure #1)"
+                  moduleName = "Favorite Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anageorgia/Documents/Teste%20Ilha%204/Favorite%20Movies/Favorite%20Movies/FavoritesViewController.swift"
+                  timestampString = "515534417.422328"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Favorite Movies/SearchTableViewController.swift"
+            timestampString = "515622922.080504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Favorite_Movies.SearchTableViewController.updateSearchResults (for : __ObjC.UISearchController) -&gt; ()"
+                  moduleName = "Favorite Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anageorgia/Documents/Teste%20Ilha%204/Favorite%20Movies/Favorite%20Movies/SearchTableViewController.swift"
+                  timestampString = "515570926.896635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "2287">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Favorite_Movies.SearchTableViewController.(updateSearchResults (for : __ObjC.UISearchController) -&gt; ()).(closure #1)"
+                  moduleName = "Favorite Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anageorgia/Documents/Teste%20Ilha%204/Favorite%20Movies/Favorite%20Movies/SearchTableViewController.swift"
+                  timestampString = "515570926.899327"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "4090">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

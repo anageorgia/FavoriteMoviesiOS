@@ -2,11 +2,14 @@
 //  AppDelegate.swift
 //  Favorite Movies
 //
-//  Created by Ana Geórgia Gama on 24/04/17.
-//  Copyright © 2017 Ana Geórgia Gama. All rights reserved.
+//  Created by AG on 24/04/17.
+//  Copyright © 2017 AG. All rights reserved.
 //
 
 import UIKit
+import Parse
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //MARK: - Initialize Parse
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "fav-movies#096h47@kwyYJlbQ"
+            $0.clientKey = "$KqcFDal%!lapRWq)*hEV]08e&75a"
+            $0.server = "https://fav-movies.herokuapp.com/parse"
+        }
+        Parse.initialize(with: configuration)
+        
+        
+        //MARK: - Views custumization
+        let darkBlue = UIColor(red: 0/255, green: 10/255, blue: 39/255, alpha: 1)
+        
+        //Tab bar
+        UITabBar.appearance().barTintColor = darkBlue
+        UITabBar.appearance().tintColor = UIColor.white
+        
+        //Navigation bar
+        UINavigationBar.appearance().barTintColor = darkBlue
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+        
+        //Status bar color
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+       
         return true
     }
 
